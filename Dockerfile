@@ -11,5 +11,5 @@ LABEL org.label-schema.schema-version="1.0" \
       org.label-schema.dockerfile="/Dockerfile"
 USER root
 RUN apk add --no-cache luarocks \
- && luarocks install https://github.com/capybara1/kong-token-introspection/releases/download/2020-05-22-03-03-24/access-token-introspection-1.0.0-0.all.rock
+ && luarocks install https://github.com/capybara1/kong-token-introspection/releases/download/2020-05-22-05-02-24/access-token-introspection-1.0.0-0.all.rock
 USER kong
